@@ -1,5 +1,14 @@
 # Hyprchroma
 
+> [!IMPORTANT]  
+> This project has been merged into [upstream](https://github.com/micha4w/Hypr-DarkWindow).
+> Use it with:
+> ```conf
+> windowrule = darkwindow:shade chromakey bkg=[0.066 0.066 0.105],match:class firefox
+> bind = $mainMod, O, darkwindow:shadeactive, chromakey bkg=[0.175, 0.175, 0.175] targetOpacity=0.5
+> ```
+
+
 ![2024-10-18-000536_hyprshot](https://github.com/user-attachments/assets/d47d78e7-5ddd-4637-83d4-6a8a7be2e0ce)
 
 Hyprchroma is a Hyprland plugin that applies a chromakey effect for global window background transparency without affecting readability
